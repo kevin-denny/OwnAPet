@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/pet": {
+      "name": "/pet",
+      "lambdaFunction": "petapi",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "inventoryapi",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+$sidebar-bg-color: #f8f9fa;
+$sidebar-color: #2a2727 !default;
+$highlight-color: #b92020 !default;
+$submenu-bg-color: #e6e0e0 !default;
+$submenu-bg-color-collapsed: #f3ebeb !default;
+$icon-bg-color: #f8f7f7 !default;
+
+//Login Background Image path
+$loginBgPath: url("./assets/img/Background.svg");
+
+// Login Card Image
+$loginCardImg: url("./assets/img/LoginCardImg.svg");
+
+// font sizes
+//10pt
+$fontSmall: 13px;
+
+//12pt
+$fontMedium: 16px;
+
+//14pt
+$fontLarge: 19px;
+
+//21pt
+$fontExtraLarge: 28px;
+
+//line height
+$lineHeightForSmall: 18px;
+$lineHeightForMedium: 21px;
+$lineHeightForLarge: 24px;
+$lineHeightForExtraLarge: 33px;
+
+//font weight
+$weightLight: 300;
+$weightMedium: 600;
+$weightBold: 800;
+
+//Colors
+$primary-color: rgb(22, 133, 35);
+$secondary-color: #ffffff80;
+$contentBackgroundColor: rgba(214, 223, 235, 0.23);
+// $defaultBackgroundColor: #efefef;
+$collapsedSidebarColor: #efefef;
+$textColor: #404040;
+$borderColor: #727171;
+$textInputBackgroundColor: #ffffff;
+
+//Heights
+$contentHeight: 100vh;
+$sideBarHeight: auto;

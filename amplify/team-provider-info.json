@@ -1,0 +1,43 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ownapet-dev-94611-authRole",
+      "UnauthRoleArn": "arn:aws:iam::657678733023:role/amplify-ownapet-dev-94611-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::657678733023:role/amplify-ownapet-dev-94611-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ownapet-dev-94611-deployment",
+      "UnauthRoleName": "amplify-ownapet-dev-94611-unauthRole",
+      "StackName": "amplify-ownapet-dev-94611",
+      "StackId": "arn:aws:cloudformation:us-east-1:657678733023:stack/amplify-ownapet-dev-94611/47c9c000-51ec-11ee-a058-1270e6097743",
+      "AmplifyAppId": "daulycuttjifi"
+    },
+    "categories": {
+      "storage": {
+        "PetStorage": {},
+        "Inventory": {}
+      },
+      "function": {
+        "petapi": {
+          "deploymentBucketName": "amplify-ownapet-dev-94611-deployment",
+          "s3Key": "amplify-builds/petapi-666b6747365551783145-build.zip"
+        },
+        "inventoryapi": {
+          "deploymentBucketName": "amplify-ownapet-dev-94611-deployment",
+          "s3Key": "amplify-builds/inventoryapi-7770624d4353352b6872-build.zip"
+        }
+      },
+      "api": {
+        "PetApi": {}
+      },
+      "auth": {
+        "ownapeta4fa48ad": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "daulycuttjifi",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

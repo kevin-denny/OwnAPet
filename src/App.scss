@@ -1,0 +1,86 @@
+@import "./styles/variables.scss";
+.label-text {
+  margin-bottom: 0.5rem;
+
+  label {
+    font-style: normal;
+    font-weight: $weightMedium;
+    font-size: 15px;
+    line-height: $lineHeightForMedium;
+    letter-spacing: 0.01em;
+    color: $textColor;
+  }
+}
+
+.required-mark {
+  font-style: normal;
+  font-weight: $weightBold;
+  font-size: $fontMedium;
+  color: #fa3e3e;
+  margin-left: 8px;
+}
+
+.custom-form {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.empty-field {
+  border: 1px solid red;
+}
+
+/* CSS in a separate CSS file or inline styles */
+.pet-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.pet-image-container {
+  flex: 1; /* Let the image container grow to fill the available space */
+}
+
+.pet-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; 
+}
+
+
+.custom-carousel {
+  max-width: 80%; 
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.carousel-icon {
+  font-size: 2rem; 
+  color: #333; 
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  );
+  padding: 8px 12px;
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+.carousel-icon:hover {
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: #fff; 
+}
+
+
